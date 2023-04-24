@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
   lintOnSave: false,
+  publicPath: "/qiankun-mirco-vue/",
   devServer: {
     port: 3012,
     headers: {
