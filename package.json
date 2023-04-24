@@ -5,7 +5,10 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "bash ./deploy-gh.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -33,7 +36,8 @@
     "less-loader": "^8.0.0",
     "prettier": "^2.4.1",
     "typescript": "~4.5.5",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.9"
   },
   "eslintConfig": {
     "root": true,
